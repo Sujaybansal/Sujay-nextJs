@@ -5,8 +5,8 @@ const HeaderMain = () => {
   return (
     <header>
       <Link href="/">
-        <img src={logoImage.src} alt="Logo here" className="h-10 w-10" />
-        Link to Home
+        <img src={logoImage.src} alt="Logo here" className="h-2 w-2" />
+        Link to Home wdcf
       </Link>
     </header>
   );
