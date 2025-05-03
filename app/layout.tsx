@@ -12,14 +12,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <SidebarProvider>
-          <HeaderMain />
-          <AppSidebar />
+        {/* <SidebarProvider> */}
           <main>
-            <SidebarTrigger />
+          <HeaderMain />
+          {/* <AppSidebar /> */}
+            {/* <SidebarTrigger /> */}
             {children}
           </main>
-        </SidebarProvider>
+        {/* </SidebarProvider> */}
       </body>
     </html>
   );
